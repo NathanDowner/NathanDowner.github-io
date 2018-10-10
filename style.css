@@ -1,7 +1,7 @@
+/*Base styling*/
 *{
   margin: 0;
   padding: 0;
-  /* height: 100%; */
 }
 
 :root {
@@ -114,9 +114,15 @@ main h2 {
   margin: 20px 0;
 }
 
+hr {
+  border: 0;
+  height: 2px;
+  background:  var(--secondary-color);
+}
+
 section {
-  border-bottom: 1px solid grey;
-  height: 250px;
+  /* border-bottom: 1px solid grey; */
+  min-height: 250px;
 }
 
 section:first-child h2 {
