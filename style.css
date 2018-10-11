@@ -19,6 +19,12 @@ h1,h2,h3, p.bold {
   --secondary-color: rgb(197, 224, 241);
 }
 
+.shadow {
+  -webkit-box-shadow: 7px 14px 24px -9px rgba(0,0,0,0.75);
+  -moz-box-shadow: 7px 14px 24px -9px rgba(0,0,0,0.75);
+  box-shadow: 7px 14px 24px -9px rgba(0,0,0,0.75);
+}
+
 body {
   margin: 0 10%;
   display: grid;
